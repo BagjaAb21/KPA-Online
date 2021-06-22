@@ -389,7 +389,7 @@ ul.social-icons li a {
   position: relative;
 }
 .tab nav a.current {
-  color: #60606e;
+  color: #000;
 }
 .tab .tab_single {
   display: none;
@@ -490,7 +490,7 @@ nav.desktop-nav ul.first-level > li > ul.second-level > li:nth-child(even) > a {
   background-color: #585866;
 }
 nav.desktop-nav ul.first-level > li > ul.second-level > li > a:hover {
-  background-color: #404051;
+  background-color: #000;
 }
 @media (max-width: 991px) {
   .menu nav.desktop-nav {
@@ -676,7 +676,7 @@ font-weight: 700;
 
 /*site hero 2 */
 .site-hero_2 {
-  background: url("../img/masjid3.jpg") no-repeat;
+  background: url("../img/masjid4.jpg") no-repeat;
   background-size: cover;
   height: 850px;
   width: 100%;
@@ -756,9 +756,8 @@ font-weight: 700;
     margin-bottom: 30px;
   }
   .agency .huzur{
-    max-width: 400px;
-    margin-left: 15rem;
-    margin-right: 15rem;
+    max-width: 450px;
+
   }
   .agency .section-title {
     margin: 0 auto;
@@ -884,17 +883,62 @@ margin-left: 10%;
   height:500px;
 }
 .mapel{ 
-  height:250px;
+  height:280px;
   border-radius: 10px;
   font-family: "Montserrat", sans-serif;
   font-size: 20px;
   font-weight: 700;
   margin-bottom: 10px;
 }
-@media (max-width 991px){
+.btn-lomba{
+text-align: right;
+font-size: 10px;
+color: #2cbadd;
+-webkit-transition: all 0.2s ease-in-out;
+transition: all 0.2s ease-in-out;
+}
+
+.tekelas{
+  color: #000;
+  font-size: 18px;
+}
+.tekmat p{
+  color: #000;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+}
+.linkbel{
+  color: #000;
+  font-size: 10px;
+}
+@media (max-width: 991px){
   .mapel img {
     margin-top: 100px;
   }
+  .btn-lomba{
+    text-align: center;
+    font-size: 8px;
+    -webkit-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+  }
+}
+.bgkomat{
+  background-size: cover;
+  position: relative;
+}
+.komat {
+  height: 400px;
+  box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
+  0px 19.8802px 86.9181px rgba(0, 0, 0, 0.0519173), 
+  0px 11.375px 49.7326px rgba(0, 0, 0, 0.0438747), 
+  0px 6.90454px 30.1873px rgba(0, 0, 0, 0.0377964), 
+  0px 4.16029px 18.1892px rgba(0, 0, 0, 0.0322036), 
+  0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
+  0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
+  margin: 40px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  
 }
 /* ##### 04 : PORTFOLIO  ##### */
 .portfolio .categories-grid span {
