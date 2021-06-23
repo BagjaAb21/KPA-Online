@@ -676,12 +676,13 @@ font-weight: 700;
 
 /*site hero 2 */
 .site-hero_2 {
-  background: url("../img/masjid4.jpg") no-repeat;
+  background: url("../img/mesjid1.png") no-repeat;
   background-size: cover;
   height: 850px;
   width: 100%;
   position: relative;
 }
+
 .site-hero_2 .page-title {
   position: absolute;
   top: 50%;
@@ -710,6 +711,53 @@ font-weight: 700;
   color: #fff;
 }
 
+/* Site Hero 3 */
+.site-hero_3 {
+  background: url("../img/mesjid3.png") no-repeat;
+  background-size: cover;
+  height: 850px;
+  width: 100%;
+  position: relative;
+}
+.site-hero_3 .page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.site-hero_3 .page-title .big-title {
+  font-size: 48px;
+  color: #fff;
+}
+.site-hero_3 .big-title:after {
+  content: "";
+  background-color: #2cbadd;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: -1;
+  width: 90px;
+  height: 25px;
+}
+.site-hero_3 .page-title .small-title {
+  font-size: 20px;
+  color: #fff;
+}
+.struktur {
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
+  0px 19.8802px 86.9181px rgba(0, 0, 0, 0.0519173), 
+  0px 11.375px 49.7326px rgba(0, 0, 0, 0.0438747), 
+  0px 6.90454px 30.1873px rgba(0, 0, 0, 0.0377964), 
+  0px 4.16029px 18.1892px rgba(0, 0, 0, 0.0322036), 
+  0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
+  0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
+border-radius: 20px;
+}
 .peserta{
   color: black;
 }
@@ -780,24 +828,25 @@ font-weight: 700;
   font-size: 36px;
 }
 .services .services-left .service-title {
-  font-size: 24px;
-  margin-bottom: 20px;
+  font-size: 20px;
+  margin-bottom: 18px;
   display: inline-block;
+  font-family: "Montserrat", sans-serif;
 }
 .services .services-left ul li {
   list-style: none;
   text-transform: uppercase;
   line-height: 30px;
   color: black;
+  font-size: 26px;
+  display: inline-block;
+  font-family: "Montserrat", sans-serif;
 }
 
 .chart {
-  height: 30%;
-  width: 30%;
   justify-content: center;
   text-align: center;
-  margin-top: -60px;
-  margin-left: 10%;
+  margin: 5%;
 }
 .chart-text {
 justify-content: center;
@@ -816,12 +865,9 @@ margin-left: 10%;
     margin-right: 18%;
   }
   .chart{
-  height: 50%;
-  width: 50%;
   justify-content: center;
   text-align: center;
-  margin-top: -60px;
-  margin-left: 27%;
+  margin: 5%;
   }
   .susunan-acara span .teks{
     text-align: center;
