@@ -322,6 +322,13 @@ ul.social-icons li a {
   background-color: #2cbadd;
   margin-top: 10px;
 }
+.tombol:hover {
+  -webkit-transform: scale(1.01);
+  -ms-transform: scale(1.01);
+  transform: scale(1.01);
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
 .btn:hover {
   -webkit-transform: scale(1.01);
   -ms-transform: scale(1.01);
@@ -660,7 +667,7 @@ font-weight: 700;
   display: inline-block;
 }
 .site-hero .big-title {
-  font-size: 48px;
+  font-size: 42px;
   color: #fff;
   padding: 10px 40px;
   border: solid 10px #fff;
@@ -693,7 +700,7 @@ font-weight: 700;
   text-align: center;
 }
 .site-hero_2 .page-title .big-title {
-  font-size: 48px;
+  font-size: 42px;
   color: #fff;
 }
 .site-hero_2 .big-title:after {
@@ -729,7 +736,7 @@ font-weight: 700;
   text-align: center;
 }
 .site-hero_3 .page-title .big-title {
-  font-size: 48px;
+  font-size: 42px;
   color: #fff;
 }
 .site-hero_3 .big-title:after {
@@ -743,6 +750,41 @@ font-weight: 700;
   height: 25px;
 }
 .site-hero_3 .page-title .small-title {
+  font-size: 20px;
+  color: #fff;
+}
+/* Site Hero 4 */
+.site-hero_4 {
+  background: url("../img/mesjid3.png") no-repeat;
+  background-size: cover;
+  height: 850px;
+  width: 100%;
+  position: relative;
+}
+.site-hero_4 .page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.site-hero_4 .page-title .big-title {
+  font-size: 42px;
+  color: #fff;
+}
+.site-hero_4 .big-title:after {
+  content: "";
+  background-color: #2cbadd;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: -1;
+  width: 90px;
+  height: 25px;
+}
+.site-hero_4 .page-title .small-title {
   font-size: 20px;
   color: #fff;
 }
@@ -781,7 +823,7 @@ border-radius: 20px;
 .agency span {
   color: #fff;
 }
-.agency p {
+.agency  p {
   color: #fff;
   font-size: 20px;
 }
@@ -796,6 +838,9 @@ border-radius: 20px;
 @media (max-width: 991px) {
   .site-hero ul.slides {
     height: 750px; 
+  }
+  .tbl-lomba{
+    margin-top: 10%;
   }
   .agency {
     margin-top: 30px;
@@ -873,20 +918,30 @@ margin-left: 10%;
     text-align: center;
     color: #000;
   }
-  
+
   .susunan-acara img {
   align-items: center;
-  margin-bottom: 10px;
-  margin-top: 5px;
-  padding-bottom: 20px;
-  padding-top: 10px;
+  margin: 5%;
+  justify-content: center;
+  max-width: 300px;
+  }
+  .susunan-acara{
+  max-width: 330px;
   }
 }
 
 .susunan-acara{
-  background-color: #eeeeee;
+  margin-top: 30px;
   border-radius: 15px;
+  box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
+  0px 19.8802px 86.9181px rgba(0, 0, 0, 0.0519173), 
+  0px 11.375px 49.7326px rgba(0, 0, 0, 0.0438747), 
+  0px 6.90454px 30.1873px rgba(0, 0, 0, 0.0377964), 
+  0px 4.16029px 18.1892px rgba(0, 0, 0, 0.0322036), 
+  0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
+  0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
 }
+
 .sa span{
   position: relative;
   z-index: 1;
@@ -927,6 +982,7 @@ margin-left: 10%;
 .frame{
   width :100%; 
   height:500px;
+  border-radius: 10px;
 }
 .mapel{ 
   height:280px;
