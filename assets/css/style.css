@@ -840,7 +840,7 @@ border-radius: 20px;
     height: 750px; 
   }
   .tbl-lomba{
-    margin-top: 10%;
+    margin-top: 25%;
   }
   .agency {
     margin-top: 30px;
@@ -909,6 +909,15 @@ margin-left: 10%;
     text-align: center;
     margin-bottom: 50px;
 
+  }
+  .services .services-left i.icon{
+    margin-left: -95px;
+  }
+  .services .services-left span{
+    margin-left: -85px;
+  }
+  .services .services-left ul li{
+    margin-left: -85px;
   }
   .services2 h2{
     text-align: center;
