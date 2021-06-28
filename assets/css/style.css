@@ -357,7 +357,11 @@ ul.social-icons li a {
     margin: 20px 0;
   }
   .tombol{
-    margin: 20px 0;
+    margin-top: 40px;
+  }
+  .tombol span .surat {
+    margin-top: 50px;
+    /* margin-bottom: -50px;  */
   }
 }
 
@@ -788,6 +792,58 @@ font-weight: 700;
   font-size: 20px;
   color: #fff;
 }
+
+/* Site Hero 5 */
+.site-hero_5 {
+  background: url("../img/mesjid5.png") no-repeat;
+  background-size: cover;
+  height: 850px;
+  width: 100%;
+  position: relative;
+}
+.site-hero_5 .page-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+.site-hero_5 .page-title .big-title {
+  font-size: 42px;
+  color: #fff;
+}
+.site-hero_5 .big-title:after {
+  content: "";
+  background-color: #2cbadd;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  z-index: -1;
+  width: 90px;
+  height: 25px;
+}
+.site-hero_5 .page-title .small-title {
+  font-size: 20px;
+  color: #fff;
+}
+
+.sapa-poster{
+  max-height: 480px;
+  padding: 10px;
+  background-color: #fff;
+  box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
+  0px 19.8802px 86.9181px rgba(0, 0, 0, 0.0519173), 
+  0px 11.375px 49.7326px rgba(0, 0, 0, 0.0438747), 
+  0px 6.90454px 30.1873px rgba(0, 0, 0, 0.0377964), 
+  0px 4.16029px 18.1892px rgba(0, 0, 0, 0.0322036), 
+  0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
+  0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
+  border-radius: 10px;
+}
+
+
 .struktur {
   background-color: #fff;
   border-radius: 5px;
@@ -839,8 +895,8 @@ border-radius: 20px;
   .site-hero ul.slides {
     height: 750px; 
   }
-  .tbl-lomba{
-    margin-top: 25%;
+  .tbl-lomba .tombol a span .surat{
+    margin-top: 100px;
   }
   .agency {
     margin-top: 30px;
@@ -872,16 +928,19 @@ border-radius: 20px;
   display: block;
   font-size: 20px;
   margin-bottom: -35px;
+  /* margin-left: -35px; */
 }
 .services .services-left i span {
   margin-top: -20px;
   color: black;
+  text-align: center;
 }
 .services .services-left .service-title {
-  font-size: 20px;
-  margin-bottom: 18px;
+  font-size: 16px;
+  margin-bottom: 10px;
   display: inline-block;
   font-family: "Montserrat", sans-serif;
+  margin-top: -35px;
 }
 .services .services-left ul li {
   list-style: none;
@@ -893,11 +952,10 @@ border-radius: 20px;
   font-family: "Montserrat", sans-serif;
   margin-top: -20px;
 }
-
 .chart {
   justify-content: center;
   text-align: center;
-  margin: 5%;
+  margin-top: 20rem;
 }
 .chart-text {
 justify-content: center;
@@ -910,14 +968,33 @@ margin-left: 10%;
     margin-bottom: 50px;
 
   }
-  .services .services-left i.icon{
-    margin-left: -95px;
+  .services .services-left .icon2 i.icon{
+    margin-left: -65px;
+    margin-right: auto;
+    align-content: center;
+  }  
+  .services .services-left .icon2 span{
+    margin-left: -65px;
+    margin-right: auto ;
   }
-  .services .services-left span{
-    margin-left: -85px;
+  .services .services-left .icon2 ul li{
+    margin-left: -60px;
+    margin-right: auto;
+  }  
+  @media (max-width: 768px){
+    .services .services-left .icon2 i.icon{
+    margin-left: -5px;
+    margin-right: auto;
+    align-content: center;
+  }  
+  .services .services-left .icon2 span{
+    margin-left: -5px;
+    margin-right: auto ;
   }
-  .services .services-left ul li{
-    margin-left: -85px;
+  .services .services-left .icon2 ul li{
+    margin-left: -1px;
+    margin-right: auto;
+  }  
   }
   .services2 h2{
     text-align: center;
@@ -994,15 +1071,52 @@ margin-left: 10%;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
+
+.hg-kpa p .tih {
+  margin-top: -50px;
+}
+
+.hg-kpa img {
+  margin-bottom: -50px;
+}
+
+.pstr img {
+   
+  max-height: 430px;
+  width: 100%;
+}
+.pstr{
+  align-content: center;
+}
+.pstrr{
+  max-height: 450px;
+  background-color: #fff;
+  padding: 15px;
+  box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
+  0px 19.8802px 86.9181px rgba(0, 0, 0, 0.0519173), 
+  0px 11.375px 49.7326px rgba(0, 0, 0, 0.0438747), 
+  0px 6.90454px 30.1873px rgba(0, 0, 0, 0.0377964), 
+  0px 4.16029px 18.1892px rgba(0, 0, 0, 0.0322036), 
+  0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
+  0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
+}
+
 @media (max-width: 991px){
   .hg-kpa ul li {
     margin-left: 20px;
+  }
+  .pstr .pstrr {
+    max-height: 600px;
+    margin-top: 10px;
+  }
+  .list-mapel p.tih{
+    margin-bottom: 100px;
   }
 }
 
 .frame{
   width :100%; 
-  height:500px;
+  height:450px;
   border-radius: 10px;
 }
 .mapel{ 

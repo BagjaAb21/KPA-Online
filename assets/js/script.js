@@ -1,7 +1,7 @@
-let labels1 = ['Khudam', 'LI','Athfal','Nashirat'];
+let labels1 = ['Khuddam', 'LI','Athfal','Nashirat','Anshar','Abna','Banat','Simpatisan'];
 
-let data1 = [100,100,100,100];
-let colors1 = ['#49A9EA', '#36CAAB','rgb(158, 151, 151)','rgb(56, 52, 52)']
+let data1 = [254,433,1397,1534,1,75,57,21];
+let colors1 = ['#49A9EA', '#36CAAB','rgb(158, 151, 151)','rgb(56, 52, 52)','#7beec7','rgb(255, 174, 0)','#437423','rgb(255, 0, 0)']
 
 let myChart = document.getElementById("myChart").getContext('2d');
 
@@ -16,7 +16,7 @@ let chart = new Chart(myChart, {
     },
     Option: {
         title: {
-            text: "Do you like Doughnouts?",
+            text: "Data Peserta KPA 2021",
             display : true
         }
     }
