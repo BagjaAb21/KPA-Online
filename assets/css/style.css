@@ -358,6 +358,7 @@ ul.social-icons li a {
   }
   .tombol{
     margin-top: 40px;
+    min-width: 180px;
   }
   .tombol span .surat {
     margin-top: 50px;
@@ -841,6 +842,12 @@ font-weight: 700;
   0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
   0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
   border-radius: 10px;
+}
+
+@media (max-width: 991px){
+  .kotdok{
+    margin-top: 65px;
+  }
 }
 
 
