@@ -394,11 +394,49 @@ header.main-header {
   z-index: 9;
 }
 /*logo*/
-header.main-header .logo {
+header.main-header .logo1 {
   float: left;
   height: 100px;
   line-height: 100px;
+  margin-top: -5px;
 }
+ header.main-header .logo2 {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -30px;
+}
+header.main-header .logo3 {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -30px;
+}
+  
+@media (max-width: 991px) {
+  header.main-header .logo1 {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  
+}
+ header.main-header .logo2 {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -25px;
+}
+header.main-header .logo3 {
+  float: left;
+  height: 100px;
+  line-height: 100px;
+  margin-top: -30px;
+}
+
+}
+
+
+
 
 .menu {
   float: right;
@@ -1076,7 +1114,16 @@ margin-left: 10%;
   text-transform: uppercase;
   margin-bottom: 15px;
 }
-
+.hg-kpa2 p{
+  color: #000;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  z-index: 1;
+  /* text-transform: uppercase; */
+  margin-bottom: -5px;
+}
 .hg-kpa p .tih {
   margin-top: -50px;
 }
@@ -1087,14 +1134,16 @@ margin-left: 10%;
 
 .pstr img {
    
-  max-height: 430px;
+  max-height: 700px;
   width: 100%;
 }
 .pstr{
   align-content: center;
+  
 }
 .pstrr{
-  max-height: 450px;
+  max-height: 750px;
+  width: 100%;
   background-color: #fff;
   padding: 15px;
   box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
@@ -1104,15 +1153,29 @@ margin-left: 10%;
   0px 4.16029px 18.1892px rgba(0, 0, 0, 0.0322036), 
   0px 2.31672px 10.1289px rgba(0, 0, 0, 0.0261253), 
   0px 0.996405px 4.35637px rgba(0, 0, 0, 0.0180827);
+  margin-top: 15px;
+  border-radius: 8px;
 }
 
 @media (max-width: 991px){
   .hg-kpa ul li {
     margin-left: 20px;
   }
+  .hg-kpa2{
+    margin-bottom: -15px;
+    margin-top: 15px;
+  }
+  .hg-kpa span .jarak {
+  margin-top: -300px;
+  }
   .pstr .pstrr {
     max-height: 600px;
-    margin-top: 10px;
+    width: 100%;
+    margin-top: 15px;
+  }
+  .pstr img {
+    max-height: 550px;
+    width: 100%;
   }
   .list-mapel p.tih{
     margin-bottom: 100px;
@@ -1124,7 +1187,7 @@ margin-left: 10%;
     margin-top: 80px;
   }
   .lmba{
-    margin-top: 100px;
+    margin-top: 150px;
   }
 }
 
@@ -1178,7 +1241,7 @@ transition: all 0.2s ease-in-out;
   position: relative;
 }
 .komat {
-  height: 500px;
+  height: 550px;
   box-shadow: 0px 43px 188px rgba(0, 0, 0, 0.07), 
   0px 19.8802px 86.9181px rgba(0, 0, 0, 0.0519173), 
   0px 11.375px 49.7326px rgba(0, 0, 0, 0.0438747), 
